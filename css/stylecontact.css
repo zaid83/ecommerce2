@@ -1,0 +1,142 @@
+
+body{
+    overflow-x:hidden;
+}
+
+
+
+
+
+.backgroundcontact{
+width:100%;
+}
+
+.textecontact {
+    
+    font-size:25px;
+    color: #FB8B0E;
+    
+}
+
+.suggestion {
+    position: absolute;
+    top:85px;
+    left:200px;
+    z-index:5;
+}
+.commande {
+    position: absolute;
+    top:115px;
+    left:250px;
+   z-index:5;
+}
+.contactez {
+    position: absolute;
+    top:145px;
+    left:400px;
+z-index:5;
+}
+.formcontact {
+   position:relative;
+    background:url('../assets/img_accueil/bb1.jpg');
+    
+}
+.barre {
+    color:#fff;
+  text-align: center;
+    border-top: 3px solid #000; 
+    font-size: 15px;
+    font-family: arial;
+    top: 750px;
+    left:500px;
+}
+.textsouligne {
+    position: relative;
+    
+}
+.textform {
+    color: #FB8B0E;
+    font-size: 40px;
+    text-align:center; 
+}
+.barre2 {
+    position: absolute;
+    top:40;
+    left:450;
+    color:#FB8B0E;
+   
+    font-size: 15px;
+    font-family: arial;
+ 
+}
+
+.form {
+    text-align: center;
+    color:white;
+    
+    }
+.votrenom {
+    
+margin-top:15px;
+    width:400px;
+    border-radius: 50px;
+    font-family: 'Noticia Text', serif;
+}
+.votremail {
+   
+    margin-top:20px;
+    height: 25px;
+    width:400px;
+    border-radius: 50px;
+    font-family: 'Noticia Text', serif;
+}
+.message { 
+    margin-top:40px;
+    height: 120px;
+    width:400px;
+    border-radius: 20px;
+    font-family: 'Noticia Text', serif;
+    
+}
+
+.boutonenvoyer { 
+   cursor: pointer;
+    height: 50px;
+    width:300px;
+    border-radius: 20px;
+    background-color:  #FB8B0E;
+    color:white;
+    font-family: 'Noticia Text', serif;
+}
+.reseauxsociaux{
+    margin-top:30px;
+    padding:10%;
+}
+.twitter {
+
+    height: 10%;
+  
+    
+}
+
+.facebook {
+    height: 10%;
+   
+}
+.instagram {
+    height: 10%;
+   
+}
+
+.twitter:hover,.facebook:hover,.instagram:hover {
+    
+    color:white;
+    opacity: 0.5;
+}
+
+input:hover {
+    
+    color:black;
+    opacity: 1;
+    
+}

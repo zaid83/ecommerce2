@@ -1,0 +1,14 @@
+footer {
+	color:white;
+	background-color:black;
+}
+footer h6 {
+	color: orangered;
+}
+footer img {
+	width:180px;
+}
+footer a:link {
+	text-decoration: none;
+	color:cyan;
+}

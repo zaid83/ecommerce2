@@ -1,0 +1,30 @@
+.barre2 {
+    position: absolute;
+    top:40;
+    left:600;
+    color:#FB8B0E;
+    font-size: 15px;
+    font-family: arial;
+ 
+}
+.listpanier{
+  background-color:gra
+}
+
+
+
+.indexcommande li {
+  display: inline-block;
+  width:30px;
+  height:30px;
+  margin-top:20px;
+ padding:1px;
+  margin-right:80px;
+  border-radius:100px;
+  background-color:orange;
+}
+
+thead {
+  background-color: orangered;
+  
+}

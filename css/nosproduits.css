@@ -1,0 +1,105 @@
+@media all and (max-width: 960px)
+    
+{
+.fromage {
+        display: none;
+    }
+    .texthaut {
+        
+       padding-top:100px;
+       
+        
+    }
+
+  
+   
+}
+
+
+
+body {
+    background-color: black;
+    font-family: Cinzel;
+    color: #FB8B0E;
+  
+}
+.content_nosproduits {
+    background-color:orangered;
+}
+
+
+
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+
+
+
+div.navbaraccueil.red
+{
+  float:none;
+ 
+}
+
+
+.texthaut {
+    text-align: left;
+   
+    margin-top: 70px;
+    margin-bottom: 2px;
+   
+  
+
+}
+
+
+
+.textbas { 
+    
+    text-align: left;
+    float: right;
+ 
+    
+    
+    
+    
+}
+
+.fromage {
+    
+    padding-top: 20px;
+    padding-bottom: px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+    
+}
+
+.logo {
+    
+    width: 200px;
+    height: 100px;
+    margin-top: 40px;
+}
+ .carousel-caption {
+  background-color:rgba(10,10,10,0.5) !important;
+  padding:10px;
+  
+}
+ .carousel-caption h3{
+color:orange;
+
+font-family: 'Anton', sans-serif;
+
+
+
+}
+ .carousel-caption p{
+font-family: 'Roboto', sans-serif;
+
+
+}

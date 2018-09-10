@@ -1,0 +1,163 @@
+
+font-family: 'Noticia Text', serif;
+font-family: 'Cinzel', serif;
+
+
+
+body {
+	background-color:black;
+
+}
+.fiche {
+	position:absolute;
+	z-index:100;
+	left:500px;
+	top:100px;
+	bottom:200px;
+	background-color:white;
+	width:600px;
+	height:auto;
+	color: black;
+	display: none;
+
+} 
+.colorange {
+	background-color:orangered;
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+	padding:35px;
+}
+
+.nomfromage {
+
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    color:white;
+}
+.provenance1 {
+
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color:white;
+}
+.desc1 {
+
+    font-family: 'Noticia Text', serif;
+    font-size: 10px;
+    color:white;
+ 
+}
+
+.imagefromage{
+
+    max-width:100%;
+    height:auto;
+}
+.prixfromage {
+    text-align:center;
+    font-family: 'Noticia Text', serif;
+    font-size: 30px;
+    color:white;
+    
+}
+
+
+
+.logosimplon{
+    
+    height: 101px;
+    width: 139px;
+    position: absolute;
+    left:0px;
+    top:-60px;
+     z-index:10000;
+    
+}
+
+.closebutton {
+    
+   
+    position: absolute;
+    z-index:100;
+     left:600px;
+    top:2px;
+
+
+}
+
+
+
+
+
+
+
+.colwhite {
+	background-color:white;
+	border-top-right-radius:20px;
+	border-top-right-radius:20px;
+}
+.entete_fiche {
+    float:left;
+    font-family: 'Cinzel', serif;
+    font-size: 23px;
+    color: #ff9b3c;
+}
+
+.nomfromage1 {
+
+    font-size: 23px;
+    color: #ff9b3c;
+}
+.provenance2 {
+    
+
+    font-size: 14px;
+     color: #ff9b3c;
+}
+
+.img_categ {
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+
+
+}
+
+.details {
+
+     margin-top:20%;
+    text-align:center;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+     color: #ff9b3c;
+}
+
+.desc3 {
+    text-align: center;
+
+    font-family: 'Noticia Text', serif;
+    font-size: 14px;
+     color: #ff9b3c;
+
+}
+
+.boutonpanier a{
+    margin-top:10%;
+    margin-left:30%;
+    font-family: 'Noticia Text', serif;
+    font-size: 15px;
+    background-color: #c0c0c0; 
+    border-radius: 10px;
+    color: white;
+    padding: 15px 29px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.boutonpanier a:hover{
+
+   
+    background-color: orangered; 
+
+    
+}

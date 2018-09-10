@@ -1,0 +1,172 @@
+
+/**************************************/
+/*Responsivite de la page contact*/ 
+/**************************************/
+@media screen and (min-width: 260px) and (max-width: 319px){
+.textecontact {
+   display:none;
+    font-size:15px;
+    color: white;
+   }
+  
+}
+@media screen and (min-width: 320px) and (max-width: 420px){
+ .textecontact {
+    
+display:none;
+}
+}
+
+@media screen and (min-width: 421px) and (max-width: 580px){
+ .textecontact {
+    
+    font-size:10px;
+   
+    
+}
+
+.suggestion {
+    position: absolute;
+    top:40px;
+    left:40px;
+    z-index:5;
+}
+.commande {
+    position: absolute;
+    top:65px;
+    left:50px;
+   z-index:5;
+}
+.contactez {
+    position: absolute;
+    top:95px;
+    left:90px;
+z-index:5;
+}
+.barre2 {
+    position: absolute;
+    top:40;
+    left:50;
+    color:#FB8B0E;
+   
+    font-size: 15px;
+    font-family: arial;
+ 
+}  
+    
+}
+
+@media screen and (min-width: 581px) and (max-width: 700px){
+ .textecontact {
+    
+    font-size:10px;
+    color: #FB8B0E;
+    
+}
+
+.suggestion {
+    position: absolute;
+    top:40px;
+    left:40px;
+    z-index:5;
+}
+.commande {
+    position: absolute;
+    top:65px;
+    left:50px;
+   z-index:5;
+}
+.contactez {
+    position: absolute;
+    top:95px;
+    left:90px;
+z-index:5;
+}
+    
+    .barre2 {
+    position: absolute;
+    top:40;
+    left:90;
+    color:#FB8B0E;
+   
+    font-size: 15px;
+    font-family: arial;
+ 
+} 
+}
+
+@media screen and (min-width: 701px) and (max-width: 929px){
+ .textecontact {
+    
+    font-size:20px;
+    color: #FB8B0E;
+    
+}
+
+.suggestion {
+    position: absolute;
+    top:60px;
+    left:40px;
+    z-index:5;
+}
+.commande {
+    position: absolute;
+    top:90px;
+    left:70px;
+   z-index:5;
+}
+.contactez {
+    position: absolute;
+    top:125px;
+    left:150px;
+z-index:5;
+}
+
+    .barre2 {
+    position: absolute;
+    top:40;
+    left:200;
+    color:#FB8B0E;
+   
+    font-size: 15px;
+    font-family: arial;
+ 
+} 
+}
+@media screen and (min-width: 930px) and (max-width: 1180px){
+.textecontact {
+    
+    font-size:25px;
+    color: #FB8B0E;
+    
+}
+
+.suggestion {
+    position: absolute;
+    top:45px;
+    left:20px;
+    z-index:5;
+}
+.commande {
+    position: absolute;
+    top:85px;
+    left:50px;
+   z-index:5;
+}
+.contactez {
+    position: absolute;
+    top:120px;
+    left:200px;
+z-index:5;
+}
+    .barre2 {
+    position: absolute;
+    top:40;
+    left:250;
+    color:#FB8B0E;
+   
+    font-size: 15px;
+    font-family: arial;
+ 
+} 
+}

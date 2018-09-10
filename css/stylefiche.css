@@ -1,0 +1,254 @@
+
+font-family: 'Noticia Text', serif;
+font-family: 'Cinzel', serif;
+#produit {
+   
+    
+
+}
+#all,#all2,#all3,#all4,#all5,#all6{
+    position: relative;
+    top:65px;
+    left:-30px;
+    display: none;
+   
+}
+
+   
+}
+.backgroundfromage{
+    position: relative;
+    max-width:100%;
+    height:auto;
+}
+.backgroundfromage img{
+    max-width:100%;
+    height:auto;
+}
+.imagefromage{
+    position: absolute;
+    left:50px;
+    top:325px;
+    max-width:100%;
+    height:auto;
+}
+.logosimplon{
+    
+    height: 101px;
+    width: 139px;
+    position: absolute;
+    left:80px;
+    top:-5px;
+    
+}
+.mouton {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left:600px;
+    top:49px;
+}
+
+.nomfromage {
+    
+    position: absolute;
+    top:85px;
+    left: 100px;
+    font-size: 23px;
+    font-family: 'Cinzel', serif;
+    color:white;
+}
+.provenance1 {
+    top:110px;
+    left: 100px;
+    position: absolute;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color:white;
+}
+.desc1 {
+    top:140px;
+    left: 90px;
+    position: absolute;
+    font-family: 'Noticia Text', serif;
+    font-size: 14px;
+    color:white;
+    
+    width: 19%;
+}
+.prixfromage {
+    top:500px;
+    left: 150px;
+    position: absolute;
+    font-family: 'Noticia Text', serif;
+    font-size: 30px;
+    color:white;
+    
+}
+.nomfromage1 {
+    position: absolute;
+    top:70px;
+    left: 380px;
+    font-family: 'Cinzel', serif;
+    font-size: 23px;
+    color: #ff9b3c;
+}
+.provenance2 {
+    
+    position: absolute;
+    top:90px;
+    left: 380px;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+     color: #ff9b3c;
+}
+.desc2 {
+   
+    position: absolute;
+     top:210px;
+    left: 380px;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+     color: #ff9b3c;
+}
+.details {
+    
+    position: absolute;
+    top:210px;
+    left: 520px;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+     color: #ff9b3c;
+}
+.evaluation {
+    
+    position: absolute;
+    top:210px;
+    left:620px;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+     color: #ff9b3c;
+}
+.desc3 {
+    text-align: center;
+    position: absolute;
+    top:250px;
+    left:380px;
+    font-family: 'Noticia Text', serif;
+    font-size: 14px;
+     color: #ff9b3c;
+    width:25%;
+}
+.choixpoids {
+    position: absolute;
+    top:440px;
+    left:380px;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+     color: #ff9b3c;
+}
+.choix1 {
+    position: absolute;
+    top:450px;
+    left:380px;
+    font-family: 'Noticia Text', serif;
+    font-size: 12px;
+}
+.choix1:hover {
+    color: white;
+    position: absolute;
+    top:450px;
+    left:380px;
+    font-family: 'Noticia Text', serif;
+    font-size: 12px;
+    background-color: #aaaaaa; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+     display: inline-block;
+    
+}
+.choix2 {
+    position: absolute;
+    top:450px;
+    left:420px;
+    font-family: 'Noticia Text', serif;
+    font-size: 12px;
+    
+}.choix2:hover{
+    color: white;
+    position: absolute;
+    top:450px;
+    left:420px;
+    font-family: 'Noticia Text', serif;
+    font-size: 12px;
+    background-color: #aaaaaa; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.choix3 {
+    position: absolute;
+    top:450px;
+    left:450px;
+    font-family: 'Noticia Text', serif;
+    font-size: 12px;
+}
+.choix3:hover {
+    color: white;
+    position: absolute;
+    top:450px;
+    left:450px;
+    font-family: 'Noticia Text', serif;
+    font-size: 12px;
+    
+    
+     background-color: #aaaaaa; 
+     border: none;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+}
+.boutonpanier a{
+    position: absolute;
+    top:490px;
+    left:490px;
+    font-family: 'Noticia Text', serif;
+    font-size: 15px;
+    background-color: #c0c0c0; 
+    border-radius: 10px;
+    color: white;
+    padding: 15px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.boutonpanier a:hover{
+    position: absolute;
+    top:490px;
+    left:490px;
+    font-family: 'Noticia Text', serif;
+    font-size: 15px;
+    background-color: orangered; 
+    border-radius: 10px;
+    color: white;
+    padding: 15px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+#boutoncroix,#boutoncroix2,#boutoncroix3,#boutoncroix4,#boutoncroix5,#boutoncroix6 {
+    
+   
+    position: absolute;
+     left:720px;
+    top:30px;
+
+}

@@ -1,0 +1,55 @@
+/***********************************/
+/*style de du formulaire de droite */ 
+/**********************************/
+.connexion{
+   
+   
+    width:100%;
+    background-color:#FFA53F;
+    padding-bottom:50%;
+    background:url('../assets/img_accueil/bgc.jpg');
+
+}
+
+h2{
+  padding-top:26%;
+}
+
+input {
+    width: 100% !important;
+    
+  background-color:rgb(170,108,44,.9) !important;;
+    color:white !important;
+    border:none !important;
+    border-radius: 3px !important;     
+}
+input:focus {
+    border:2px solid white !important;
+}
+::placeholder {
+  color: antiquewhite !important;
+  font-size: 1em;
+  font-style:italic;
+
+}
+#valideconnexion{
+    margin:0 auto;
+    width:60% !important;
+    background-color:gray !important;
+    cursor: pointer;
+    border:1px solid white !important;
+}
+.formulaire {
+    padding:5%;
+     margin: 9 150;
+    margin-top:40px;
+   background-color:rgba(260,167,70,0.6);
+    box-sizing: border-box;
+    border-radius:10px;
+}
+#valideconnexion:hover{
+  background-color:orangered !important;
+  width:65% !important;
+border-radius:10px;
+}
+

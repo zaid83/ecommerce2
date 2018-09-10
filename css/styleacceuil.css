@@ -1,0 +1,185 @@
+
+
+html {
+    min-height:100%; 
+
+}
+body {
+
+    color:white;
+    background-color:black;
+    font-family: 'Noticia Text', serif; 
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+}
+
+/**************************************/
+/*style de la ligne des deux colonnes */ 
+/**************************************/
+
+
+
+/***********************************/
+/*style de la colonne de gauche */ 
+/**********************************/
+
+.fromage-simplon {
+
+    width:100%;
+    min-height:10%;
+
+    padding-top:5%;
+    padding-bottom:15%;
+    background:url('../assets/img_accueil/bb1.jpg');
+}
+.texteaccueil {
+   color:#FFA53F;
+   margin-top:150px;
+
+}
+.texteaccueil h3{
+
+font-family: 'Alfa Slab One', cursive;
+ margin-bottom:40px;
+ font-size:1em;
+}
+
+.texteaccueil .connecte{
+    color: orange;
+font-style: italic;
+
+}
+.texteaccueil i{
+
+margin-left:20px;
+color:cyan;
+font-size:1.5em;
+}
+
+.texteaccueil img{
+
+width:200px;
+
+
+}
+.simplon{
+    color:white;
+    margin-bottom:40px;
+}
+
+/***********************************/
+/*style du bouton entrer */ 
+/**********************************/
+
+.btn-sm.animated-button.victoria-one{
+  
+    width:200px;
+    color: white;
+  
+}
+
+.btn-sm.animated-button.victoria-one:hover{
+  
+    width:300px;
+    color: cornflowerblue;
+  
+}
+
+
+
+/***********************************/
+/*style de la navbar */ 
+/**********************************/
+
+
+
+/* Style des liens de la navbar */
+
+
+
+
+
+div.navbaraccueil.red
+{
+  
+    float:right;
+    margin: 0 auto;
+    padding: 1em 2em;
+    text-align: center;
+    background:transparent;
+  
+}
+
+div.navbaraccueil.red a
+{
+    float:right;
+     color:white;
+    text-decoration: none;
+
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+/* Top and Bottom borders go out */
+div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
+{
+  
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: orangered;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+  
+}
+
+div.topBotomBordersOut a:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+   
+}
+
+div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+div.topBotomBordersOut a:hover{
+    color:blanchedalmond;
+}
+
+/***********************************/
+/*style de l'image de droite */ 
+/**********************************/
+
+.imageaccueil {
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    min-height:100%;
+    width:100%;
+    z-index: -12;
+}
+
+.entetecategories {
+ padding-bottom:10px;
+ background:black;
+    color:white;
+    }

@@ -1,0 +1,80 @@
+/***********************************/
+/*style de du formulaire de droite */ 
+/**********************************/
+body{
+    overflow-x: hidden;
+}
+.inscription {
+    
+    min-height:10%;
+    width:100%;
+    background-color:#FFA53F;
+    padding-bottom:100px;
+    background:url('../assets/img_accueil/bgc.jpg');
+
+}
+
+h2{
+  padding-top:150px;
+}
+
+input {
+    width: 100% !important;
+    
+  background-color:rgb(170,108,44,.9) !important;;
+    color:white !important;
+    border:none !important;
+    border-radius: 3px !important;     
+}
+input:focus {
+    border:2px solid white !important;
+}
+::placeholder {
+  color: antiquewhite !important;
+  font-size: 1em;
+  font-style:italic;
+
+}
+#valideinscription{
+    margin:0 auto;
+    width:60% !important;
+    background-color:gray !important;
+    cursor: pointer;
+    border:1px solid white !important;
+    margin-top:10%;
+}
+.formulaire {
+    padding:5%;
+     margin: 9 150;
+    margin-top:40px;
+   background-color:rgba(260,167,70,0.6);
+    box-sizing: border-box;
+    border-radius:10px;
+    padding-bottom:10%
+
+}
+#valideinscription:hover{
+  background-color:orangered !important;
+  width:65% !important;
+
+
+}
+
+
+
+
+.profile {
+    
+    min-height:10%;
+    width:100%;
+    background-color:#FFA53F;
+    padding-bottom:100px;
+    background:url('../assets/img_accueil/bgc.jpg');
+
+}
+
+.profile .tableprofile{
+    
+padding:20%;
+
+}

@@ -1,0 +1,105 @@
+.svg-container {
+    display: inline-block;
+
+    vertical-align: middle;
+    overflow: hidden;
+
+}
+
+.map__image{
+    
+
+
+}
+.map__image path{
+    
+ fill:black;
+    stroke: #ffd14c;
+    stroke-width:1px;
+    stroke-opacity:0.5;
+     
+
+}
+
+.map__image path:hover{
+    
+ fill: #ffd14c;
+    stroke: white;
+    stroke-width:1px;
+    transition: fill 2s; 
+
+}
+
+.col-xl-4{
+ background:url('../assets/img_accueil/bgc.jpg');
+text-align: center;
+padding-left:20px;
+}
+sup{
+    background-color:red;
+    padding:5px 10;
+    border-radius: 120px;
+}
+.barre {
+    color:#fff;
+    position: absolute;
+     top:10px;
+    left:80px;
+    font-size: 30px;
+    font-family: arial;
+  
+}
+
+.texte1 {
+
+     color:black;
+     font-family: 'cinzel', cursive;
+    margin-bottom:60px;
+    font-size:2em;
+
+    
+}
+.texte2 {
+  
+     color:white;
+font-size:1.2em;
+     text-align: center;
+    margin-bottom:80px;
+    
+}
+
+
+.boutonentrer {
+   
+    text-decoration: none;
+    color:#FFA53F;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid #FFA53F;
+
+}
+/* style du bouton entrer au survol de la souris */
+
+.boutonentrer:hover {
+
+    text-decoration: none;
+    color:white;
+    background-color: #FFA53F;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid white;
+
+}
+
+.imgcategories {
+    display: inline-block;
+}
+.imgcategories img {
+    width: 100px;
+}
+
+
+
+
+
